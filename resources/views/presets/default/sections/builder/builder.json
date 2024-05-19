@@ -1,0 +1,191 @@
+{
+    "banner": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Banner Section",
+        "content": {
+            "heading": "text",
+            "subheading": "text",
+            "short_description": "textarea",
+            "button_name": "text",
+            "banner_icon": "icon",
+            "icon_text": "text",
+            "images": {
+                "background_image": {
+                    "size": "1920x865"
+                },
+                "image": {
+                    "size": "555x520"
+                },
+                "shape_image_one": {
+                    "size": "52x52"
+                },
+                "shape_image_two": {
+                    "size": "52x52"
+                },
+                "shape_image_three": {
+                    "size": "52x52"
+                }
+            }
+        }
+    },
+
+    "job_categories": {
+        "builder": true,
+        "name": "Category Section",
+        "content": {
+            "title": "text"
+        }
+    },
+
+    "recent_job": {
+        "builder": true,
+        "name": "Job List Section",
+        "content": {
+            "title": "text",
+            "button_name": "text"
+        }
+    },
+
+    "most_job": {
+        "builder": true,
+        "name": "Most Job Section",
+        "content": {
+            "title": "text",
+            "images": {
+                "shape_image_one": {
+                    "size": "775x520"
+                },
+                "shape_image_two": {
+                    "size": "775x520"
+                }
+            }
+        }
+    },
+
+    "about": {
+        "builder": true,
+        "name": "About Us",
+        "content": {
+            "images": {
+                "about_image": {
+                    "size": "635x590"
+                }
+            },
+            "title": "text",
+            "heading": "text",
+            "description": "textarea-rich",
+            "button_name": "text"
+        }
+    },
+
+    "marketplace": {
+        "builder": true,
+        "name": "Marketplace Section",
+        "content": {
+            "title": "text",
+            "short_description": "textarea-rich",
+            "button_one": "text",
+            "button_two": "text",
+            "images": {
+                "background_image": {
+                    "size": "1920x440"
+                },
+                "shape_image_one": {
+                    "size": "400x245"
+                },
+                "shape_image_two": {
+                    "size": "390x300"
+                }
+            }
+
+        }
+    },
+
+    "counter": {
+        "builder": true,
+        "name": "Counter Section",
+        "element": {
+            "counter_digit": "text",
+            "counter_text": "text",
+            "modal": true
+        }
+    },
+
+    "faq": {
+        "builder": true,
+        "name": "FAQ Section",
+        "content": {
+            "title": "text",
+            "images":{
+                "image": {
+                    "size": "545x545"
+                }
+            }
+        },
+        "element": {
+            "question": "text",
+            "answer": "textarea-rich",
+            "modal": false
+        }
+    },
+
+    "policy_pages": {
+        "builder": false,
+        "no_selection": true,
+        "name": "Policy Pages",
+        "element": {
+            "title": "text",
+            "details": "textarea-rich",
+            "modal": false
+        }
+    },
+ 
+    "blog": {
+        "builder": true,
+        "name": "Blog Section",
+        "content": {
+            "title": "text"
+        },
+        "element": {
+            "images": {
+                "blog_image": {
+                    "size": "825x500",
+                    "thumb": "415x250"
+                }
+            },
+            "title": "text",
+            "description": "textarea-rich",
+            "blockquote": "textarea-rich",
+            "modal": false
+        }
+    },
+    "footer": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Footer Section",
+        "content": {
+            "short_description": "text"
+        },
+        "element": {
+            "title": "text",
+            "url": "text",
+            "icon": "icon",
+            "modal": true
+        }
+    },
+    "contact": {
+        "builder": true,
+        "no_selection": true,
+        "name": "Contact Section",
+        "content": {
+            "title": "text",
+            "button_name": "text",
+            "images": {
+                "contact_image":{
+                    "size": "570x530"
+                }
+            }
+        }
+    }
+}
